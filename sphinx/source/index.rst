@@ -3,15 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Eneboo's documentation!
-==================================
+Bienvenido a la documentación de Eneboo!
+==========================================
 
-Contents:
+Contenido:
 
 .. toctree::
    :maxdepth: 2
 
-Indices and tables
+Tablas e Índices
 ==================
 
 * :ref:`genindex`
