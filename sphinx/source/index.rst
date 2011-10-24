@@ -11,7 +11,7 @@ Contenido:
 .. toctree::
    :maxdepth: 2
    
-   introduccion.rst
+   introduccion
    
 
 Tablas e Índices
@@ -20,4 +20,14 @@ Tablas e Índices
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+Cómo ayudar en el desarrollo de esta documentación
+=====================================================
+
+Esta documentación está escrita usando el genial software Sphinx, que es el
+responsable de mantener la documentación de proyectos tan conocidos como Python.
+
+El código fuente de la documentación se mantiene bajo Git en eneboo-doc:
+https://github.com/gestiweb/eneboo-doc
 
