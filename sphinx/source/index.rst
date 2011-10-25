@@ -12,6 +12,8 @@ Contenido:
    :maxdepth: 2
    
    introduccion
+   compilar/index
+   api/index
    
 
 Tablas e Índices
