@@ -6,16 +6,23 @@ Este documento detalla las convenciones establecidas para documentar las extensi
 
 El lenguaje elegido
 ------------------------
-Se usará el lenguaje de marcas reStructuredText_ ya que sus características permiten varios usos:
+Se usará el lenguaje de marcas reStructuredText_, ya que sus características permiten varios usos:
+
 #. La documentación se podrá consultar directamente en GitHub, ya que esta plataforma interpreta código RST.
+
 #. Usando `Sphinx <http://sphinx.pocoo.org/genindex.html>` y las plantillas adecuadas, se podrá generar una documentación en HTML con un diseño más acorde con la imagen del proyecto Eneboo.
+
 #. Usando Sphinx también se podrá generar documentación en PDF pasando por LaTeX.
 
 Ficheros y carpetas usados
 ------------------------------
+
 Dentro del directorio de cada extensión se creará:
+
 - Un fichero :file:`README.rst`. Este fichero de texto describirá el funcionamiento de la extensión.
+
 - Un directorio :file:`images`. Este directorio contendrá algunas capturas de pantalla con las que ilustrar el funcionamiento de la extensión.
+
 
 Estructura del fichero README.rst
 ---------------------------------------
