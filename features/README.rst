@@ -28,6 +28,7 @@ Estructura del fichero README.rst
 ---------------------------------------
 
 .. rst:role:: Nombre de la extensión
+
     Es el valor del campo ``description`` en el fichero :file:`.feature.ini`.
     Inicialmente se puede escribir, aunque lo ideal sería leerlo de ese fichero para
     incluirlo en la documentación de forma automática.
@@ -35,12 +36,14 @@ Estructura del fichero README.rst
     líneas con el símbolo ``=``.
     
 .. rst:role:: Descripción de la funcionalidad
+
     En los párrafos que sean necesarios se describirán las nuevas funcionalidades que
     esta extensión aporta a Eneboo. Se usará texto en **cursiva** (entre dobles
     asteriscos) para los elementos de Eneboo como campos de datos, títulos de
     formularios, etc.
     
 .. rst:role:: Capturas de pantalla
+
     Bajo ese título se mostrarán imágenes de las capturas de pantalla más descriptivas
     del funcionamiento de la extensión. Se usará la directiva figure_ de la siguiente
     forma::
