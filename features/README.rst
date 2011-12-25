@@ -10,7 +10,7 @@ Se usará el lenguaje de marcas reStructuredText_, ya que sus características p
 
 #. La documentación se podrá consultar directamente en GitHub, ya que esta plataforma interpreta código RST.
 
-#. Usando `Sphinx <http://sphinx.pocoo.org/genindex.html>` y las plantillas adecuadas, se podrá generar una documentación en HTML con un diseño más acorde con la imagen del proyecto Eneboo.
+#. Usando 'Sphinx <http://sphinx.pocoo.org/genindex.html>' y las plantillas adecuadas, se podrá generar una documentación en HTML con un diseño más acorde con la imagen del proyecto Eneboo.
 
 #. Usando Sphinx también se podrá generar documentación en PDF pasando por LaTeX.
 
