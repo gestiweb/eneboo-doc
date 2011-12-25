@@ -10,7 +10,7 @@ Se usará el lenguaje de marcas reStructuredText_, ya que sus características p
 
 #. La documentación se podrá consultar directamente en GitHub, ya que esta plataforma interpreta código RST.
 
-#. Usando 'Sphinx <http://sphinx.pocoo.org/genindex.html>' y las plantillas adecuadas, se podrá generar una documentación en HTML con un diseño más acorde con la imagen del proyecto Eneboo.
+#. Usando Sphinx_ y las plantillas adecuadas, se podrá generar una documentación en HTML con un diseño más acorde con la imagen del proyecto Eneboo.
 
 #. Usando Sphinx también se podrá generar documentación en PDF pasando por LaTeX.
 
@@ -58,3 +58,4 @@ Sirva como ejemplo la documentación de la extensión 0015-subfamilias
 
 .. _reStructuredText: http://docutils.sf.net/rst.html
 .. _figure: http://docutils.sourceforge.net/docs/ref/rst/directives.html#figure
+.. _Sphinx: http://sphinx.pocoo.org/genindex.html
