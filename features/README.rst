@@ -44,12 +44,12 @@ Capturas de pantalla
     del funcionamiento de la extensión. Se usará la directiva figure_ de la siguiente
     forma::
     
-        .. figure:: captura1.jpg
-           :width: 400 px
+        .. figure:: /gestiweb/eneboo-features/blob/master/ext0015-subfamilia/doc/screen01.png?raw=true
+           :width: 500 px
            
            Descripción de la captura.
            
-
+    Se debe procurar que el nombre del fichero de la captura sea descriptivo.
 
 Ejemplo
 ------------------------
