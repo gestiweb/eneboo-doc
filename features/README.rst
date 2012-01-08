@@ -50,6 +50,7 @@ Capturas de pantalla
            Descripción de la captura.
            
     Se debe procurar que el nombre del fichero de la captura sea descriptivo.
+    Las rutas de las imágenes deben ser como la que aparece en el ejemplo si queremos que se vean bien en GitHub, ya que esta plataforma no encuentra las imágenes con rutas como ``doc/edicion_articulo.png``.
 
 Ejemplo
 ------------------------
