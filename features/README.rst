@@ -30,17 +30,16 @@ Estructura del fichero README.rst
 Nombre de la extensión
     Es el valor del campo *description* en el fichero ``descripcion_extension.feature.ini``.
     Para que aparezca como título, se escribirá una línea encima y otra debajo del nombre con el símbolo '='.
-            El valor del campo *description* se puede sacar del fichero de forma automática con Sphinx_, aunque no con reStructuredText_.
+            El valor del campo *description* se puede sacar del fichero de forma automática con Sphinx_, aunque no con reStructuredText_, por lo que inicialmente se pondrá a mano.
 
     
 Descripción de la funcionalidad
-    En los párrafos que sean necesarios se describirán las nuevas funcionalidades que
-    esta extensión aporta a Eneboo. Se usará texto en **cursiva** (entre dobles
+    En varios párrafos se describirán las nuevas funcionalidades que
+    esta extensión aporta a un proyecto. Se usará texto en **cursiva** (entre dobles
     asteriscos) para los elementos de Eneboo como campos de datos, títulos de
     formularios, etc.
     
-.. rst:role:: Capturas de pantalla
-
+Capturas de pantalla
     Bajo ese título se mostrarán imágenes de las capturas de pantalla más descriptivas
     del funcionamiento de la extensión. Se usará la directiva figure_ de la siguiente
     forma::
