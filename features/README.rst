@@ -19,7 +19,7 @@ Ficheros y carpetas usados
 
 Dentro del directorio de cada extensión se creará:
 
-- Un fichero `README.rst`. Describirá el funcionamiento de la extensión.
+- Un fichero ``README.rst``. Describirá el funcionamiento de la extensión.
 
 - Un directorio `doc`. Además de otros ficheros, contendrá algunas capturas de pantalla con las que ilustrar el funcionamiento de la extensión.
 
