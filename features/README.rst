@@ -28,12 +28,10 @@ Estructura del fichero README.rst
 ---------------------------------------
 
 Nombre de la extensión
-    Es el valor del campo *description* en el fichero
-    ``descripcion_extension.feature.ini``.
-        Inicialmente se puede escribir, aunque lo ideal sería leerlo de ese fichero para
-        incluirlo en la documentación de forma automática.
-        Para que aparezca como título, se escribirán encima y debajo del nombre sendas
-        líneas con el símbolo ``=``.
+    Es el valor del campo *description* en el fichero ``descripcion_extension.feature.ini``.
+    Para que aparezca como título, se escribirá una línea encima y otra debajo del nombre con el símbolo ``=``.
+            Inicialmente se puede escribir, aunque lo ideal sería leerlo de ese fichero para incluirlo en la documentación de forma automática.
+
     
 Descripción de la funcionalidad
     En los párrafos que sean necesarios se describirán las nuevas funcionalidades que
