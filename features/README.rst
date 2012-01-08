@@ -44,7 +44,7 @@ Capturas de pantalla
     del funcionamiento de la extensión. Se usará la directiva figure_ de la siguiente
     forma::
     
-        .. figure:: /gestiweb/eneboo-features/blob/master/ext0015-subfamilia/doc/screen01.png?raw=true
+        .. figure:: /gestiweb/eneboo-features/blob/master/ext0015-subfamilia/doc/edicion_articulo.png?raw=true
            :width: 500 px
            
            Descripción de la captura.
