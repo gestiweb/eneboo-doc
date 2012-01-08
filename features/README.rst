@@ -8,7 +8,7 @@ El lenguaje elegido
 ------------------------
 Se usará el lenguaje de marcas reStructuredText_, ya que sus características permiten varios usos:
 
-#. La documentación se podrá consultar directamente en GitHub, ya que esta plataforma interpreta código RST.
+#. La documentación se podrá consultar directamente en GitHub, ya que esta plataforma interpreta código reST.
 
 #. Usando Sphinx_ y las plantillas adecuadas, se podrá generar una documentación en HTML con un diseño más acorde con la imagen del proyecto Eneboo.
 
@@ -19,9 +19,9 @@ Ficheros y carpetas usados
 
 Dentro del directorio de cada extensión se creará:
 
-- Un fichero `README.rst`. Este fichero de texto describirá el funcionamiento de la extensión.
+- Un fichero `README.rst`. Describirá el funcionamiento de la extensión.
 
-- Un directorio :file:`images`. Este directorio contendrá algunas capturas de pantalla con las que ilustrar el funcionamiento de la extensión.
+- Un directorio `doc`. Además de otros ficheros, contendrá algunas capturas de pantalla con las que ilustrar el funcionamiento de la extensión.
 
 
 Estructura del fichero README.rst
@@ -49,14 +49,16 @@ Estructura del fichero README.rst
     forma::
     
         .. figure:: captura1.jpg
-           :height:300px
            :width: 400 px
            
            Descripción de la captura.
            
 
+
+Ejemplo
+------------------------
     
-Sirva como ejemplo la documentación de la extensión 0015-subfamilias
+Sirva como ejemplo la documentación de la extensión 0015-subfamilias que se puede ver en https://github.com/dezetage/eneboo-features/tree/master/ext0015-subfamilia.
 
 
 .. _reStructuredText: http://docutils.sf.net/rst.html
