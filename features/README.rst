@@ -2,6 +2,8 @@
 Documentar Extensiones en Eneboo
 ==================================
 
+    Nota: Esta documentación está pendiente de revisión.
+
 Este documento detalla las convenciones establecidas para documentar las extensiones de Eneboo.
 
 El lenguaje elegido
