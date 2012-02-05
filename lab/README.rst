@@ -59,4 +59,4 @@ Sirva como ejemplo la documentación de la extensión **agenda** que se puede ve
 .. _figure: http://docutils.sourceforge.net/docs/ref/rst/directives.html#figure
 .. _Sphinx: http://sphinx.pocoo.org/genindex.html
 .. _eneboo-lab: https://github.com/rmenor/eneboo-lab
-.. _eneboo-lab: https://github.com/gestiweb/eneboo-doc/features
+.. _eneboo-features: https://github.com/gestiweb/eneboo-doc/features
