@@ -60,10 +60,6 @@ A continuación se detalla el subconjunto de marcas de reStructuredText_ que se 
 Enlaces
 ------------------
 
-**Enlaces internos**
-    
-Para incluir un enlace a un capítulo
-    
 **Enlaces externos**
       
 Para incluir un enlace a una URL externa a la documentación, el texto del enlace debe ir seguido de un guión bajo (\_). Si el texto del enlace está compuesto de más de una palabra, todo el texto debe ir entre tildes (\`). Al final del documento, se definirán todas las URL externas del documento como puede verse en el siguiente ejemplo::
