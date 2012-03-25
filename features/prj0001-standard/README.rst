@@ -66,7 +66,7 @@ Para incluir un enlace a un capítulo
     
 **Enlaces externos**
       
-Para incluir un enlace a una URL externa a la documentación, el texto del enlace debe ir seguido de un guión bajo (\_). Si el enlace está compuesto de más de una palabra, todo el texto debe ir entre comillas simples. Al final del documento, se definirán todas las URL externas del documento. Véase el siguiente ejemplo::
+Para incluir un enlace a una URL externa a la documentación, el texto del enlace debe ir seguido de un guión bajo (\_). Si el enlace está compuesto de más de una palabra, todo el texto debe ir entre tildes (\`). Al final del documento, se definirán todas las URL externas del documento como puede verse en el siguiente ejemplo::
       
     Eneboo_ es `software libre`_ de tipo ERP_.
         
@@ -75,8 +75,8 @@ Para incluir un enlace a una URL externa a la documentación, el texto del enlac
     ...
         
     .. _Eneboo: http://www.eneboo.org
-    .. _`software libre` http://es.wikipedia.org/wiki/Software_libre
-    .. _ERP http://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales
+    .. _`software libre`: http://es.wikipedia.org/wiki/Software_libre
+    .. _ERP: http://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales
 
 .. _reStructuredText: http://docutils.sf.net/rst.html
 .. _Sphinx: http://sphinx.pocoo.org/genindex.html
