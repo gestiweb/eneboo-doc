@@ -25,9 +25,9 @@ El código fuente de Eneboo se distribuye bajo licencia GPL_ versión 2.
 	completamente éste manual.
 
 	
-.. _ERP http://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales
-.. _pyme http://es.wikipedia.org/wiki/Peque%C3%B1a_y_mediana_empresa
-.. _AbanQ http://www.abanq.org
-.. _`software libre` http://es.wikipedia.org/wiki/Software_libre
-.. _GPL http://es.wikipedia.org/wiki/GNU_General_Public_License
-.. _fork http://es.wikipedia.org/wiki/Bifurcaci%C3%B3n_(desarrollo_de_software)
+.. _ERP: http://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales
+.. _pyme: http://es.wikipedia.org/wiki/Peque%C3%B1a_y_mediana_empresa
+.. _AbanQ: http://www.abanq.org
+.. _`software libre`: http://es.wikipedia.org/wiki/Software_libre
+.. _GPL: http://es.wikipedia.org/wiki/GNU_General_Public_License
+.. _fork; http://es.wikipedia.org/wiki/Bifurcaci%C3%B3n_(desarrollo_de_software)
