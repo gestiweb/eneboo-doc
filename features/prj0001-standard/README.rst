@@ -42,42 +42,40 @@ Formateando el texto
 
 A continuación se detalla el subconjunto de marcas de reStructuredText_ que se usará para formatear el texto:
 
-**El título del capítulo**
-      
-El título debe aparecer al principio de cada fichero de capítulo. Por encima y por debajo de éste se debe incluir una línea de símbolos de igual (\=) de la siguiente forma::
+**El título del capítulo** debe aparecer al principio de cada fichero de capítulo. Por encima y por debajo de éste se debe incluir una línea de símbolos de igual (\=) de la siguiente forma::
 
     ===========================================
     Primeros pasos
     ===========================================
         
-    * **Las secciones**, es decir, los distintos apartados de cada capítulo, tendrán debajo del texto una línea de guiones (\-), como por ejemplo::
+**Las secciones**, es decir, los distintos apartados de cada capítulo, tendrán debajo del texto una línea de guiones (\-), como por ejemplo::
     
-        Editar líneas de una factura
-        \-------------------------------
+    Editar líneas de una factura
+    -------------------------------
 
-    * **Los elementos propios de la aplicación**, como nombres de campos o botones, deberán ir *en cursiva* para distinguirlos mejor. Para hacer esto, se pondrán entre dobles asteriscos, como se puede ver a continuación::
+**Los elementos propios de la aplicación**, como nombres de campos o botones, deberán ir *en cursiva* para distinguirlos mejor. Para hacer esto, se pondrán entre dobles asteriscos, como se puede ver a continuación::
     
-        Para crear una nueva factura pulse el botón \*Insertar registro*.
+    Para crear una nueva factura pulse el botón \*Insertar registro*.
         
 Enlaces
 ------------------
 
-    * **Enlaces internos**
+**Enlaces internos**
     
-      Para incluir un enlace a un capítulo
+Para incluir un enlace a un capítulo
     
-    * **Enlaces externos**
+**Enlaces externos**
       
-      Para incluir un enlace a una URL externa a la documentación, el texto del enlace debe ir seguido de un guión bajo (\_). Si el enlace está compuesto de más de una palabra, todo el texto debe ir entre comillas simples. Al final del documento, se definirán todas las URL externas del documento. Véase el siguiente ejemplo::
+Para incluir un enlace a una URL externa a la documentación, el texto del enlace debe ir seguido de un guión bajo (\_). Si el enlace está compuesto de más de una palabra, todo el texto debe ir entre comillas simples. Al final del documento, se definirán todas las URL externas del documento. Véase el siguiente ejemplo::
       
-        Eneboo_ es 'software libre'_ de tipo ERP_.
+    Eneboo_ es 'software libre'_ de tipo ERP_.
         
-        \...
-        \...
-        \...
+    \...
+    \...
+    \...
         
-        \.. _Eneboo: http://www.eneboo.org
-        \.. _ERP http://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales
+    \.. _Eneboo: http://www.eneboo.org
+    \.. _ERP http://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales
 
 
 .. _reStructuredText: http://docutils.sf.net/rst.html
