@@ -48,7 +48,7 @@ A continuación se detalla el subconjunto de marcas de reStructuredText_ que se 
       
         =======================================================
         Primeros pasos
-        =======================================================
+        \=======================================================
         
     * **Las secciones**, es decir, los distintos apartados de cada capítulo, tendrán debajo del texto una línea de guiones (\-), como por ejemplo::
     
