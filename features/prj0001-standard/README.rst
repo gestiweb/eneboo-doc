@@ -46,9 +46,9 @@ A continuación se detalla el subconjunto de marcas de reStructuredText_ que se 
       
         El título debe aparecer al principio de cada fichero de capítulo. Por encima y por debajo de éste se debe incluir una línea de símbolos de igual (\=) de la siguiente forma::
       
-        =======================================================
+        "======================================================="
         Primeros pasos
-        \=======================================================
+        "======================================================="
         
     * **Las secciones**, es decir, los distintos apartados de cada capítulo, tendrán debajo del texto una línea de guiones (\-), como por ejemplo::
     
