@@ -6,7 +6,7 @@ El objetivo de este manual es que el usuario de Eneboo Standard pueda extraer el
 
 Eneboo es una aplicación de tipo ERP_ especialmente creada para la gestión empresarial. El proyecto Standard es un conjunto de funcionalidades fundamentales que cubre la mayor parte de las necesidades de gestión de una pyme_. Por tanto, podemos decir que Eneboo Standard es un ERP para la gestión de pymes.
 
-Eneboo nació como un fork de AbanQ_ 2.4, un conocido 'software libre'_ de tipo ERP_.
+Eneboo nació como un fork de AbanQ_ 2.4, un conocido `software libre`_ de tipo ERP_.
 
 Licencia
 -------------
