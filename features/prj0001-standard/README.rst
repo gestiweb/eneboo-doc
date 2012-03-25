@@ -75,8 +75,8 @@ Para incluir un enlace a una URL externa a la documentación, el texto del enlac
     ...
         
     .. _Eneboo: http://www.eneboo.org
-    .. _`software libre` http://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales
-
+    .. _`software libre` http://es.wikipedia.org/wiki/Software_libre
+    .. _ERP http://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales
 
 .. _reStructuredText: http://docutils.sf.net/rst.html
 .. _Sphinx: http://sphinx.pocoo.org/genindex.html
