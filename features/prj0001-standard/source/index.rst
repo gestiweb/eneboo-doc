@@ -9,16 +9,6 @@ Bienvenido al Manual de Eneboo Standard
 Contenidos:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
-   uno
-   dos
-   tres
-
-Índices y tablas
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   introduccion

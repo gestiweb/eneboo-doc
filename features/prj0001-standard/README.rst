@@ -78,6 +78,15 @@ Para incluir un enlace a una URL externa a la documentación, el texto del enlac
     .. _`software libre`: http://es.wikipedia.org/wiki/Software_libre
     .. _ERP: http://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales
 
+Generar HTML
+-------------------
+Para generar los ficheros HTML hay que situarse en el directorio raíz de la documentación de Eneboo (donde se encuentra el fichero ``Makefile`` y ejecutar la siguiente instrucción::
+
+    $ make html
+
+Los ficheros HTML se generan en el directorio ``build``.
+
+
 .. _reStructuredText: http://docutils.sf.net/rst.html
 .. _Sphinx: http://sphinx.pocoo.org/genindex.html
 .. _Eneboo: http://www.eneboo.org
