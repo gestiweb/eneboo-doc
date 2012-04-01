@@ -39,4 +39,4 @@ El manual de Eneboo Standard, desarrollado por la `Comunidad Eneboo`_, se encuen
 .. _`Licencia Creative Commons Reconocimiento-CompartirIgual 3.0 Unported`: http://creativecommons.org/licenses/by-sa/3.0/
 .. _`software libre`: http://es.wikipedia.org/wiki/Software_libre
 .. _ventajas: http://es.wikipedia.org/wiki/Software_libre#Ventajas_del_software_libre
-.. _comparación con el `software propietario`: http://es.wikipedia.org/wiki/Software_propietario
+.. _`software propietario`: http://es.wikipedia.org/wiki/Software_propietario
