@@ -86,6 +86,15 @@ Se usará la directiva figure_ de la siguiente forma::
            
            Descripción de la imagen.
 
+La imagen del ejemplo se verá así:
+
+.. figure:: http://www.eneboo.org/site/sites/default/files/styles/large/public/eneboo1.png
+   :width: 480 px
+   :height: 345 px
+   
+   Descripción de la imagen.
+
+
 Generar HTML
 -------------------
 Para generar los ficheros HTML hay que situarse en el directorio raíz de la documentación de Eneboo (donde se encuentra el fichero ``Makefile`` y ejecutar la siguiente instrucción::
@@ -99,3 +108,4 @@ Los ficheros HTML se generan en el directorio ``build``.
 .. _Sphinx: http://sphinx.pocoo.org/genindex.html
 .. _Eneboo: http://www.eneboo.org
 .. _Standard: https://github.com/gestiweb/eneboo-features/tree/master/prj0001-standard
+.. _figure: http://docutils.sourceforge.net/docs/ref/rst/directives.html#figure
