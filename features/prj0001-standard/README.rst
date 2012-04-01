@@ -74,6 +74,18 @@ Para incluir un enlace a una URL externa a la documentación, el texto del enlac
     .. _`software libre`: http://es.wikipedia.org/wiki/Software_libre
     .. _ERP: http://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales
 
+
+Incluir imágenes
+-------------------------
+
+Se usará la directiva figure_ de la siguiente forma::
+    
+        .. figure:: http://www.eneboo.org/site/sites/default/files/styles/large/public/eneboo1.png
+           :width: 480 px
+           :height: 345 px
+           
+           Descripción de la imagen.
+
 Generar HTML
 -------------------
 Para generar los ficheros HTML hay que situarse en el directorio raíz de la documentación de Eneboo (donde se encuentra el fichero ``Makefile`` y ejecutar la siguiente instrucción::

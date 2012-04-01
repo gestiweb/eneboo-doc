@@ -12,3 +12,4 @@ Contenidos:
    :maxdepth: 3
    
    introduccion
+   como_colaborar
