@@ -9,7 +9,7 @@ Qué es Eneboo Standard
 
 Eneboo Standard es software de gestión especialmente diseñado para para la gestión de pymes_. Se trata de un ERP_ que integra funciones de gestión, facturación y contabilidad.
 
-Eneboo_ es un motor de aplicaciones de tipo ERP especialmente creado para la gestión empresarial. El proyecto Standard es un conjunto de funcionalidades que cubre la mayor parte de las necesidades de gestión de una pyme. Es un `software libre`_ y gratuito. El software libre cuenta con interesantes ventajas_ en `comparación con el software propietario`_, mucho más extendido.
+Eneboo_ es un motor de aplicaciones de tipo ERP especialmente creado para la gestión empresarial. El proyecto Standard es un conjunto de funcionalidades que cubre la mayor parte de las necesidades de gestión de una pyme. Es un `software libre`_ y gratuito. El software libre cuenta con interesantes ventajas_ en comparación con el `software propietario`_, mucho más extendido.
 
 Eneboo nació como un fork de AbanQ_ 2.4 desarrollado de forma colaborativa. Entre otras características, ya desde el inicio el proyecto contó con un sistema de mezclas de código y eliminó el uso de binarios firmados digitalmente.
 
@@ -39,4 +39,4 @@ El manual de Eneboo Standard, desarrollado por la `Comunidad Eneboo`_, se encuen
 .. _`Licencia Creative Commons Reconocimiento-CompartirIgual 3.0 Unported`: http://creativecommons.org/licenses/by-sa/3.0/
 .. _`software libre`: http://es.wikipedia.org/wiki/Software_libre
 .. _ventajas: http://es.wikipedia.org/wiki/Software_libre#Ventajas_del_software_libre
-.. _`comparación con el software propietario`: http://es.wikipedia.org/wiki/Software_propietario
+.. _comparación con el `software propietario`: http://es.wikipedia.org/wiki/Software_propietario
