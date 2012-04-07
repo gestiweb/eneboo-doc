@@ -109,7 +109,7 @@ Los ficheros HTML se generan en el directorio ``build``.
 Recursos adicionales
 ------------------------
 
-Como guía de para la creación de este manual se puede usar este manual_ creado por Isolix_. Aunque el manual de Isolix no se refiere a Eneboo Standard, corresponde a un proyecto Eneboo que comparte con Eneboo Standard muchas extensiones y módulos, por lo que puede ser muy útil para la edición de este manual.
+Como guía de para la creación de este manual se puede usar este :download:`manual <downloads/manual_isolix.pdf>` escrito por Isolix_. Aunque el manual de Isolix no se refiere a Eneboo Standard, corresponde a un proyecto Eneboo que comparte con Eneboo Standard muchas extensiones y módulos, por lo que puede resultar muy útil para nuestra tarea.
 
 
 .. _repositorio: https://github.com/dezetage/eneboo-doc/tree/master/features/prj0001-standard
@@ -119,4 +119,3 @@ Como guía de para la creación de este manual se puede usar este manual_ creado
 .. _Standard: https://github.com/gestiweb/eneboo-features/tree/master/prj0001-standard
 .. _figure: http://docutils.sourceforge.net/docs/ref/rst/directives.html#figure
 .. _Isolix: http://www.isolix.es
-.. _manual: download/manual_isolix.pdf
