@@ -6,6 +6,8 @@
 Bienvenido al Manual de Eneboo Standard
 ===================================================
 
+<< Volver a eneboo.org_
+
 Contenidos:
 
 .. toctree::
@@ -13,3 +15,6 @@ Contenidos:
    
    introduccion
    como_colaborar
+   
+   
+.. _eneboo.org: http://www.eneboo.org

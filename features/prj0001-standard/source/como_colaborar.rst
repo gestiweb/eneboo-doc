@@ -37,7 +37,7 @@ En resumen, para añadir capítulos al índice basta con incluir el nombre del f
 Los capítulos
 -------------------
 
-Como se ha dicho en el punto anterior, cada capítulo del manual se guardará en un fichero ``.rst`` distinto.
+Como se ha dicho en el punto anterior, cada capítulo del manual se guardará en un fichero ``.rst`` distinto. Para editar un capítulo hay que editar el fichero asociado en cualquier editor de texto.
 
 
 Formateando el texto
@@ -60,9 +60,6 @@ A continuación se detalla el subconjunto de marcas de reStructuredText_ que se 
     
     Para crear una nueva factura pulse el botón \*Insertar registro*.
         
-Enlaces
-------------------
-
 **Enlaces externos**
       
 Para incluir un enlace a una URL externa a la documentación, el texto del enlace debe ir seguido de un guión bajo (\_). Si el texto del enlace está compuesto de más de una palabra, todo el texto debe ir entre tildes (\`). Al final del documento, se definirán todas las URL externas del documento como puede verse en el siguiente ejemplo::
@@ -78,12 +75,11 @@ Para incluir un enlace a una URL externa a la documentación, el texto del enlac
     .. _ERP: http://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales
 
 
-Incluir imágenes
--------------------------
+** Incluir imágenes **
 
 Se usará la directiva figure_ de la siguiente forma::
     
-        .. figure:: http://www.eneboo.org/site/sites/default/files/styles/large/public/eneboo1.png
+        .. figure:: images/eneboo_ejemplo.png
            :width: 480 px
            :height: 345 px
            
@@ -91,15 +87,17 @@ Se usará la directiva figure_ de la siguiente forma::
 
 La imagen del ejemplo se verá así:
 
-.. figure:: http://www.eneboo.org/site/sites/default/files/styles/large/public/eneboo1.png
+.. figure:: images/eneboo_ejemplo.png
    :width: 480 px
    :height: 345 px
    
    Descripción de la imagen.
 
 
+
 Generar HTML
 -------------------
+
 Para generar los ficheros HTML hay que situarse en el directorio raíz de la documentación de Eneboo (donde se encuentra el fichero ``Makefile`` y ejecutar la siguiente instrucción::
 
     $ make html
@@ -108,9 +106,17 @@ Los ficheros HTML se generan en el directorio ``build``.
 
 
 
+Recursos adicionales
+------------------------
+
+Como guía de para la creación de este manual se puede usar este manual_ creado por Isolix_. Aunque el manual de Isolix no se refiere a Eneboo Standard, corresponde a un proyecto Eneboo que comparte con Eneboo Standard muchas extensiones y módulos, por lo que puede ser muy útil para la edición de este manual.
+
+
 .. _repositorio: https://github.com/dezetage/eneboo-doc/tree/master/features/prj0001-standard
 .. _reStructuredText: http://docutils.sf.net/rst.html
 .. _Sphinx: http://sphinx.pocoo.org/genindex.html
 .. _Eneboo: http://www.eneboo.org
 .. _Standard: https://github.com/gestiweb/eneboo-features/tree/master/prj0001-standard
 .. _figure: http://docutils.sourceforge.net/docs/ref/rst/directives.html#figure
+.. _Isolix: http://www.isolix.es
+.. _manual: download/manual_isolix.pdf
