@@ -4,6 +4,8 @@ Introducción
 
 El objetivo de este manual es que el usuario de Eneboo Standard pueda extraer el máximo rendimiento a su aplicación.
 
+El manual se encuentra en proceso de desarrollo, por lo que algunas partes pueden aparecer incompletas. Si deseas colaborar en su edición vea :doc:`aquí<como_colaborar>` cómo hacerlo.
+
 Qué es Eneboo Standard
 --------------------------
 

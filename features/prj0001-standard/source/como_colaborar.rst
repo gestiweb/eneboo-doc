@@ -60,6 +60,14 @@ A continuación se detalla el subconjunto de marcas de reStructuredText_ que se 
     
     Para crear una nueva factura pulse el botón \*Insertar registro*.
         
+
+**Enlaces dentro del manual**
+Para crear un enlace a, por ejemplo, otra sección del manual, se utiliza la directiva *ref* de la siguiente forma::
+
+    El manual se encuentra en proceso de desarrollo, por lo que algunas partes pueden aparecer incompletas. Si desea
+    colaborar en su edición vea :doc:`aquí<como_colaborar>` cómo hacerlo.
+
+
 **Enlaces externos**
       
 Para incluir un enlace a una URL externa a la documentación, el texto del enlace debe ir seguido de un guión bajo (\_). Si el texto del enlace está compuesto de más de una palabra, todo el texto debe ir entre tildes (\`). Al final del documento, se definirán todas las URL externas del documento como puede verse en el siguiente ejemplo::
@@ -73,7 +81,6 @@ Para incluir un enlace a una URL externa a la documentación, el texto del enlac
     .. _Eneboo: http://www.eneboo.org
     .. _`software libre`: http://es.wikipedia.org/wiki/Software_libre
     .. _ERP: http://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales
-
 
 ** Incluir imágenes **
 

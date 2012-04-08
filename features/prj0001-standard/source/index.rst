@@ -8,13 +8,15 @@ Bienvenido al Manual de Eneboo Standard
 
 << Volver a eneboo.org_
 
-Contenidos:
-
 .. toctree::
    :maxdepth: 3
    
    introduccion
    como_colaborar
+   primeros_pasos
+   area_facturacion
+   area_financiera
+   area_sistema
    
    
 .. _eneboo.org: http://www.eneboo.org
