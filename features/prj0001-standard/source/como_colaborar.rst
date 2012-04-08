@@ -8,7 +8,7 @@ Este manual está siendo desarrollado por la Comunidad Eneboo. Si estás interes
 Descargar los fuentes
 ---------------------------
 
-Los fuentes del manual de Eneboo Standard se encuentran en un repositorio_ en GitHub.
+Los fuentes del manual de Eneboo Standard se encuentran en un repositorio_ en GitHub. Si deseas colaborar con la edición del manual deberás darte de alta en GitHub y crear un fork. Si no estás familiarizado con GitHub, necesitarás aprender algunas `nociones básicas`_ para obtener documentación y subir cambios.
 
 
 El lenguaje elegido
@@ -126,3 +126,4 @@ Como guía de para la creación de este manual se puede usar este :download:`man
 .. _Standard: https://github.com/gestiweb/eneboo-features/tree/master/prj0001-standard
 .. _figure: http://docutils.sourceforge.net/docs/ref/rst/directives.html#figure
 .. _Isolix: http://www.isolix.es
+.. _`nociones básicas`: http://help.github.com/

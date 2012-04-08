@@ -4,7 +4,6 @@ Introducción
 
 El objetivo de este manual es que el usuario de Eneboo Standard pueda extraer el máximo rendimiento a su aplicación.
 
-El manual se encuentra en proceso de desarrollo, por lo que algunas partes pueden aparecer incompletas. Si deseas colaborar en su edición vea :doc:`aquí<como_colaborar>` cómo hacerlo.
 
 Qué es Eneboo Standard
 --------------------------
@@ -16,6 +15,12 @@ Eneboo_ es un motor de aplicaciones de tipo ERP especialmente creado para la ges
 Eneboo nació como un fork de AbanQ_ 2.4 desarrollado de forma colaborativa. Entre otras características, ya desde el inicio el proyecto contó con un sistema de mezclas de código y eliminó el uso de binarios firmados digitalmente.
 
 Eneboo está diseñado principalmente para trabajar sobre la base de datos PostgreSQL_ como base de datos, aunque	permite otros controladores (como MySQL_ o SQLite_).
+
+
+¿Por qué algunos capítulos del manual están incompletos?
+--------------------------------------------------------------
+
+El manual se encuentra en proceso de desarrollo, por lo que algunas partes pueden aparecer incompletas. Si deseas colaborar en su edición mira :doc:`aquí<como_colaborar>` cómo hacerlo. El proyecto Eneboo es llevado a cabo por voluntarios. Cualquier ayuda es bienvenida.
 
 
 Licencia

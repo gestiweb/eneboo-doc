@@ -12,11 +12,11 @@ Bienvenido al Manual de Eneboo Standard
    :maxdepth: 3
    
    introduccion
-   como_colaborar
    primeros_pasos
    area_facturacion
    area_financiera
    area_sistema
+   como_colaborar
    
    
 .. _eneboo.org: http://www.eneboo.org
