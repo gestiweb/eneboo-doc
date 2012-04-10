@@ -19,4 +19,4 @@ Bienvenido al Manual de Eneboo Standard
    como_colaborar
    
    
-.. _eneboo.org: http://www.eneboo.org
+.. _eneboo.org: javascript:history.back()
