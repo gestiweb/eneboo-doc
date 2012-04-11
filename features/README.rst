@@ -57,7 +57,7 @@ Capturas de pantalla
 Ejemplo
 ------------------------
     
-Sirva como ejemplo la documentación de la extensión 0015-subfamilias que se puede ver en https://github.com/dezetage/eneboo-features/tree/master/ext0015-subfamilia.
+Sirva como ejemplo la documentación de la extensión 0015-subfamilias que se puede ver en https://github.com/gestiweb/eneboo-features/tree/master/ext0015-subfamilia
 
 
 .. _reStructuredText: http://docutils.sf.net/rst.html
