@@ -8,19 +8,36 @@ Este manual está siendo desarrollado por la Comunidad Eneboo. Si estás interes
 Descargar los fuentes
 ---------------------------
 
-Los fuentes del manual de Eneboo Standard se encuentran en un repositorio_ en GitHub. Si deseas colaborar con la edición del manual deberás darte de alta en GitHub y crear un fork. Si no estás familiarizado con GitHub, necesitarás aprender algunas `nociones básicas`_ para obtener documentación y subir cambios.
+Los fuentes del manual de Eneboo Standard se encuentran en un repositorio_ en GitHub. Si deseas colaborar con la edición del manual deberás darte de alta en GitHub y crear un fork. Sigue estos pasos:
+    1. Si no tienes cuenta en GitHub, `date de alta <https://github.com/signup/free>`_.
+    2. `Configura git <http://help.github.com/set-up-git-redirect>`_.
+    3. `Haz un fork <http://help.github.com/fork-a-repo/>`_ de este repositorio_ y descárgalo con::
+    
+         $ git fetch upstream
+    
+
+Instalar Sphinx
+--------------------
+Para generar tanto HTML como PDF usaremos Sphinx_. Para instalarlo has de hacer lo siguiente:
+    1. Instalar python (cualquier versión a partir de la 2.6). Para Windows y Mac hay que descargar un `instalador <http://www.python.org/getit/>`_. En el caso de Linux, búscalo en el gestor de paquetes de tu distribución.
+    2. Instalar Sphinx. Dependiendo de tu sistema operativo, sigue las instrucciones para instalación en `Windows <http://sphinxsearch.com/docs/1.10/installing-windows.html>`_ o `Mac <http://freelancing-god.github.com/ts/en/installing_sphinx.html>`_. En el caso de Linux, como en el punto anterior, acude al gestor de paquetes de tu distribución.
 
 
-El lenguaje elegido
-------------------------
+Editar los capítulos
+-----------------------------
 
-Se usará el lenguaje de marcas reStructuredText_. Para la generación de índices y la creación automática de ficheros HTML y LaTeX, se usará Sphinx_.
+Cada capítulo del manual se encuentra en un fichero distinto. Los ficheros de la documentación están en formato reStructuredText_ (``.rst``). Para editarlos se puede utilizar cualquier editor de texto simple como el *Bloc de Notas*, *gedit*, *kate* o cualquier otro.
+
+Para empezar a desarrollar un capítulo que ya esté en el índice debes buscar el fichero correspondiente en la carpeta donde hayas descargado el repositorio. Los nombres de los ficheros son bastante descriptivos. Simplemente ábrelo y ve completándo. Si necesitas una orientación puedes consultar el apartado `Recursos adicionales`_.
+
+Necesitarás saber cómo poner títulos, imágenes, etc. Consulta el apartado `Formateando el texto`_.
 
 
-La tabla de contenidos
+
+Modificar el índice
 --------------------------
 
-El *toctree*, "table of contents tree", es un índice que apunta a los distintos capítulos del manual. Sphinx_ utilizará este fichero para crear el índice en HTML o LaTeX. Para modificarlo hay que editar el fichero ``index.rst`` y modificar las opciones de la directiva *toctree*::
+En Sphinx, el índice de capítulos se llama *toctree* (*table of contents tree*). Para modificarlo hay que editar el fichero ``index.rst`` y modificar las opciones de la directiva *toctree*::
 
     .. toctree::
         :maxdepth: 2
@@ -31,13 +48,8 @@ El *toctree*, "table of contents tree", es un índice que apunta a los distintos
 
 La lista de nombres que aparecen debajo de *:maxdepth: 2* corresponden a ficheros que contienen la documentación de cada uno de los capítulos del manual. Todos estos ficheros deben tener sufijo ``.rst`` y estar escritos en lenguaje reStructuredText_, aunque el sufijo ``.rst`` NO debe incluirse en la lista de la directiva *toctree*.
 
-En resumen, para añadir capítulos al índice basta con incluir el nombre del fichero sin el sufijo ``.rst`` en la lista de la directiva *toctree* del fichero ``index.rst``.
+En resumen, para añadir capítulos al índice basta con incluir el nombre del fichero SIN el sufijo ``.rst`` en la lista de la directiva *toctree* del fichero ``index.rst``.
 
-
-Los capítulos
--------------------
-
-Como se ha dicho en el punto anterior, cada capítulo del manual se guardará en un fichero ``.rst`` distinto. Para editar un capítulo hay que editar el fichero asociado en cualquier editor de texto.
 
 
 Formateando el texto
@@ -62,10 +74,15 @@ A continuación se detalla el subconjunto de marcas de reStructuredText_ que se 
         
 
 **Enlaces dentro del manual**
-Para crear un enlace a, por ejemplo, otra sección del manual, se utiliza la directiva *ref* de la siguiente forma::
+
+Para crear un enlace a otra sección del manual se utiliza la directiva *doc* seguida del nombre del fichero correspondiente sin el sufijo ``.rst`` de la siguiente forma::
 
     El manual se encuentra en proceso de desarrollo, por lo que algunas partes pueden aparecer incompletas. Si desea
-    colaborar en su edición vea :doc:`aquí<como_colaborar>` cómo hacerlo.
+    colaborar en su edición vea :doc:`aquí <como_colaborar>` cómo hacerlo.
+
+Para crear un enlace a una sección dentro de un capítulo se escribe el título del mismo de la siguiente forma::
+
+    Si necesitas una orientación puedes consultar el apartado `Recursos adicionales`_.
 
 
 **Enlaces externos**
@@ -82,7 +99,7 @@ Para incluir un enlace a una URL externa a la documentación, el texto del enlac
     .. _`software libre`: http://es.wikipedia.org/wiki/Software_libre
     .. _ERP: http://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales
 
-** Incluir imágenes **
+**Incluir imágenes**
 
 Se usará la directiva figure_ de la siguiente forma::
     
@@ -109,8 +126,24 @@ Para generar los ficheros HTML hay que situarse en el directorio raíz de la doc
 
     $ make html
 
-Los ficheros HTML se generan en el directorio ``build``.
+Los ficheros HTML se generan en el directorio ``build``. Para ver el resultado abre el archivo ``index.html`` que hay en él con tu navegador favorito.
 
+
+
+Subir los cambios al repositorio principal
+-------------------------------------------------
+
+Sube los cambios regularmente a tu repositorio haciendo *commit* y *push*::
+    
+    $ git commit -am 'Un comentario'    
+    
+    $ git push origin master
+ 
+Para saber más acerca de estas operaciones echa un vistazo `aquí <http://help.github.com/fork-a-repo/>`_.
+
+Una vez tengas listas tus aportaciones para ser publicadas mándanoslas haciendo un `pull request <http://help.github.com/send-pull-requests/>`_ desde GitHub. Nosotros nos encargamos de revisarlas y publicarlas en eneboo.org.
+
+La Comunidad Eneboo te está muy agradecida por tu colaboración. Entre todos hacemos que este proyecto sea posible.
 
 
 Recursos adicionales
@@ -126,4 +159,3 @@ Como guía de para la creación de este manual se puede usar este :download:`man
 .. _Standard: https://github.com/gestiweb/eneboo-features/tree/master/prj0001-standard
 .. _figure: http://docutils.sourceforge.net/docs/ref/rst/directives.html#figure
 .. _Isolix: http://www.isolix.es
-.. _`nociones básicas`: http://help.github.com/
