@@ -68,9 +68,11 @@ A continuación se detalla el subconjunto de marcas de reStructuredText_ que se 
     Editar líneas de una factura
     -------------------------------
     
-**Las subsecciones** se marcarán escribiendo debajo del título una línea de comillas (\"), como se ve a continuación:
+**Las subsecciones** se marcarán escribiendo debajo del título una línea de comillas (\"), como se ve a continuación::
 
-    
+    Instalador automático
+    """"""""""""""""""""""""""
+ 
 
 **Los elementos propios de la aplicación**, como nombres de campos o botones, deberán ir *en cursiva* para distinguirlos mejor. Para hacer esto, se pondrán entre dobles asteriscos, como se puede ver a continuación::
     
