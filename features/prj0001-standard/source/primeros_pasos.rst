@@ -22,7 +22,7 @@ Instalación manual
 **Macintosh**
 
     1. Instala el `motor de Eneboo para Mac OS X <http://eneboo.com/pub/eneboo/builds/v2.4.0/eneboo-v2.4.0-alpha5-mac32.zip>`_ (sólo para 32 bits).
-    2. Descarga el gestor de bases de datos PostgreSQL para Mac del `área de descarga de PostgreSQL`_. Durante la instalación te pedirá un usuario y una contraseña de administrador de la base de datos. Anótalas.
+    2. Descarga el gestor de bases de datos PostgreSQL (recomendamos la versión 8.4) para Mac del `área de descarga de PostgreSQL`_. Durante la instalación te pedirá un usuario y una contraseña de administrador de la base de datos. Anótalas.
     3. Descarga el `paquete de Eneboo Standard`_.
     4. `Carga el paquete de Eneboo Standard`_.
     
