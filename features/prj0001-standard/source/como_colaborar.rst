@@ -67,6 +67,10 @@ A continuación se detalla el subconjunto de marcas de reStructuredText_ que se 
     
     Editar líneas de una factura
     -------------------------------
+    
+**Las subsecciones** se marcarán escribiendo debajo del título una línea de comillas (\"), como se ve a continuación:
+
+    
 
 **Los elementos propios de la aplicación**, como nombres de campos o botones, deberán ir *en cursiva* para distinguirlos mejor. Para hacer esto, se pondrán entre dobles asteriscos, como se puede ver a continuación::
     
@@ -100,6 +104,8 @@ Para incluir un enlace a una URL externa a la documentación, el texto del enlac
     .. _ERP: http://es.wikipedia.org/wiki/Planificaci%C3%B3n_de_recursos_empresariales
 
 **Incluir imágenes**
+
+Todas las imágenes deben guardarse dentro del directorio ``source/images``.
 
 Se usará la directiva figure_ de la siguiente forma::
     
