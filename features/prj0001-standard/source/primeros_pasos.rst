@@ -8,13 +8,15 @@ Instalación
 Instalador automático
 """"""""""""""""""""""""""
 
-Este `instalador <http://www.eneboo.com/pub/contrib/eneboo-2.4-alpha5-standard-win32-installer.exe>`_ permite que en pocos minutos Eneboo Standard esté listo para trabajar. El instalador realiza las siguientes tareas de forma automática:
+Este instalador permite que en pocos minutos Eneboo Standard esté listo para trabajar. El instalador realiza las siguientes tareas de forma automática:
 
     * Instala el motor de Eneboo.
     * Instala el gestor de bases de datos PostgreSQL con la configuración por defecto.
     * Carga los módulos y extensiones del proyecto Eneboo Standard.
     
-De momento sólo está disponible para Windows.
+Se puede descargar en el apartado `Versiones Estables`_ del área de descarga de Eneboo, a través del enlace *Windows Installer 32bits Quick*.
+
+De momento sólo está disponible para Windows y Linux.
 
 Instalación manual
 """""""""""""""""""""""""
@@ -28,7 +30,7 @@ Instalación manual
     
 **Linux**
 
-    #. Descargar y descomprimir el motor de Eneboo para Linux de `32 bits <http://eneboo.com/pub/eneboo/builds/v2.4.0/eneboo-v2.4.0-alpha5-linux32.tar.bz2>`_ o de `64 bits <http://www.eneboo.com/pub/eneboo/builds/v2.4.0/eneboo-v2.4.0-alpha5-preview2-linux64.tar.bz2>`_ según necesitemos. El ejecutable está en ``eneboo-v2.4.0-alpha5/bin/eneboo``. Aunque el programa desde directorio, se recomienda moverlo a las rutas habituales de instalación de software como /opt/.
+    #. Descargar y descomprimir el motor de Eneboo para Linux en el apartado `Versiones Estables`_. Podemos elegir entre las versiones Build y Quick, de 32 o 64 bits.
     #. Descargar e instalar el gestor de bases de datos PostgreSQL (recomendamos la versión 8.4) para Linux del `área de descarga de PostgreSQL`_. La instalación solicitará un usuario y una contraseña de administrador de la base de datos que conviene anotar, ya que serán necesarios más adelante.
     #. Descargar el `paquete de Eneboo Standard`_.
     #. `Cargar el paquete de Eneboo Standard`_.
@@ -78,5 +80,6 @@ Circuito de compras
 
 
 
+.. _`Versiones Estables`: http://www.eneboo.org/site/stable
 .. _`área de descarga de PostgreSQL`: http://www.enterprisedb.com/products-services-training/pgdownload
-.. _`paquete de Eneboo Standard`: http://eneboo.com/pub/eneboo/modules/standard.eneboopkg
+.. _`paquete de Eneboo Standard`: http://www.eneboo.com/pub/contrib/standard-modules/standard.eneboopkg
