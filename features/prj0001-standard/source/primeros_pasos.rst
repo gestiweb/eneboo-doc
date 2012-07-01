@@ -57,7 +57,7 @@ Cargar el paquete de Eneboo Standard
            
            Pantalla *Conectar*
            
-     5. Pulsar el botón *Conectar*. Se mostrará un mensaje con el texto *La base de datos standard no existe ¿Quiere crearla?*. Pulsar *Sí*.
+     #. Pulsar el botón *Conectar*. Se mostrará un mensaje con el texto *La base de datos standard no existe ¿Quiere crearla?*. Pulsar *Sí*.
      #. Se iniciará el programa y se mostrará el entorno Eneboo. En el área de *Módulos* de la parte izquierda, abrir la opción *Sistema -> Administración -> Cargar Paquete de módulos*.
      #. Localizar el archivo ``standard.eneboopkg`` y pulsar *Abrir*. Cuando finalice la carga, Eneboo Standard estará listo para empezar a trabajar.
 
@@ -65,9 +65,29 @@ Cargar el paquete de Eneboo Standard
 Configuración inicial
 -----------------------
 
+Datos de la empresa
+"""""""""""""""""""""""
+
+    #. Abrir la opción de menú *Área de Facturación > Principal > Empresa*.
+    #. Sustituir los datos que aparecen por los de nuestra empresa.
+
 
 Entorno Eneboo
 -------------------
+
+El entorno de trabajo Eneboo consiste en un *menú de opciones* situado a la izquierda y un *área de datos* situado a la derecha.
+
+.. figure:: images/entorno.png
+   :width: 800 px
+   
+   El entorno Eneboo.
+
+El menú de opciones
+""""""""""""""""""""""
+
+Aquí podemos encontrar todas las opciones y funciones de Eneboo. Para abrir cada una haremos doble clic con el botón izquierdo del ratón sobre ellas. La pantalla correspondiente a la opción seleccionada se abrirá en el área de datos.
+
+En la vista *Módulos* podemos encontrar todas las opciones. La vista *Recientes* se irá rellenando automáticamente con las últimas opciones usadas. En la vista *Marcadores* podemos situar las opciones que usamos con más frecuencia. Para hacerlo, localizamos la opción en la vista *Módulos*, hacemos clic derecho y seleccionamos *Añadir a marcadores*.
 
 
 
