@@ -14,9 +14,9 @@ Este instalador permite que en pocos minutos Eneboo Standard esté listo para tr
     * Instala el gestor de bases de datos PostgreSQL con la configuración por defecto.
     * Carga los módulos y extensiones del proyecto Eneboo Standard.
     
-Se puede descargar en el apartado `Versiones Estables`_ del área de descarga de Eneboo, a través del enlace *Windows Installer 32bits Quick*.
+Se puede descargar en el apartado `Versiones Estables`_ del área de descarga de Eneboo. Buscaremos el *Windows Installer Quick* que mejor se adapte a nuestras necesidades (Windows o Linux, 32 ó 64 bits).
 
-De momento sólo está disponible para Windows y Linux.
+De momento no hay instalador automático para Mac.
 
 Instalación manual
 """""""""""""""""""""""""
@@ -30,7 +30,7 @@ Instalación manual
     
 **Linux**
 
-    #. Descargar y descomprimir el motor de Eneboo para Linux en el apartado `Versiones Estables`_. Podemos elegir entre las versiones Build y Quick, de 32 o 64 bits.
+    #. Descargar y descomprimir el motor de Eneboo para Linux en el apartado `Versiones Estables`_. Buscaremos el *Build dbAdmin Linux* de 32 o 64 bits.
     #. Descargar e instalar el gestor de bases de datos PostgreSQL (recomendamos la versión 8.4) para Linux del `área de descarga de PostgreSQL`_. La instalación solicitará un usuario y una contraseña de administrador de la base de datos que conviene anotar, ya que serán necesarios más adelante.
     #. Descargar el `paquete de Eneboo Standard`_.
     #. `Cargar el paquete de Eneboo Standard`_.
