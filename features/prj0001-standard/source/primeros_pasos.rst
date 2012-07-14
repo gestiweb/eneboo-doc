@@ -102,9 +102,9 @@ Crear la factura directamente
 #. Hacemos doble clic en la opción de menú *Area de Facturación -> Facturación -> Facturas*.
 #. Pulsamos en el botón *Insertar registro (A)*.
     .. figure:: images/btn_insertar_registro.png
-#. Para seleccionar un cliente, pulsamos el botón con el icono de la lupa que hay a la derecha de *Cliente". Aparecerá la lista de clientes. Pulsamos de nuevo *Insertar registro (A)*. Aparecerá una ficha de cliente vacía.
+#. Para seleccionar un cliente, pulsamos el botón con el icono de la lupa que hay a la derecha de *Cliente*. Aparecerá la lista de clientes. Pulsamos de nuevo *Insertar registro (A)*. Aparecerá una ficha de cliente vacía.
 #. Rellenamos al menos los campos obligatorios (marcados con asterisco).
-#. Para rellenar la dirección de facturación, pulsamos el botón *Insertar*, rellenamos los campos y pulsamos el botón *Aceptar los cambios y cerrar formulario (F10)*.
+#. Para rellenar la dirección de facturación, pulsamos el botón *Insertar*, rellenamos los campos y pulsamos el botón *Aceptar los cambios y cerrar formulario (F10)* (el que está en la parte inferior derecha de la pantalla con un icono de un aspa verde).
     .. figure:: images/editar_direcciones_clientes.png
 
 
