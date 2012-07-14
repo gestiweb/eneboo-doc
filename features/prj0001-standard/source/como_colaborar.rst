@@ -130,7 +130,7 @@ La imagen del ejemplo se verá así:
 Generar HTML
 -------------------
 
-Para generar los ficheros HTML hay que situarse en el directorio raíz de la documentación de Eneboo (donde se encuentra el fichero ``Makefile`` y ejecutar la siguiente instrucción::
+Para generar los ficheros HTML hay que situarse en el directorio raíz de la documentación de Eneboo (donde se encuentra el fichero ``Makefile``) y ejecutar la siguiente instrucción::
 
     $ make html
 

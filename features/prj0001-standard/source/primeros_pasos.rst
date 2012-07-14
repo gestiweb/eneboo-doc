@@ -68,8 +68,8 @@ Configuración inicial
 Datos de la empresa
 """""""""""""""""""""""
 
-    #. Abrir la opción de menú *Área de Facturación > Principal > Empresa*.
-    #. Sustituir los datos que aparecen por los de nuestra empresa.
+    #. Abrimos la opción de menú *Área de Facturación > Principal > Empresa*.
+    #. Sustituimos los datos que aparecen por los de nuestra empresa.
 
 
 Entorno Eneboo
@@ -87,16 +87,30 @@ El menú de opciones
 
 Aquí podemos encontrar todas las opciones y funciones de Eneboo. Para abrir cada una haremos doble clic con el botón izquierdo del ratón sobre ellas. La pantalla correspondiente a la opción seleccionada se abrirá en el área de datos.
 
-En la vista *Módulos* podemos encontrar todas las opciones. La vista *Recientes* se irá rellenando automáticamente con las últimas opciones usadas. En la vista *Marcadores* podemos situar las opciones que usamos con más frecuencia. Para hacerlo, localizamos la opción en la vista *Módulos*, hacemos clic derecho y seleccionamos *Añadir a marcadores*.
+En la vista *Módulos* podemos encontrar todas las opciones. La vista *Recientes* se irá rellenando automáticamente con las últimas opciones usadas. En la vista *Marcadores* podemos situar las opciones que usamos con más frecuencia. Para hacerlo, localizamos una opción en la vista *Módulos*, hacemos clic derecho y seleccionamos *Añadir a marcadores*.
 
 
 
-Circuito de ventas
--------------------
+Cómo crear una factura de venta
+------------------------------------
+
+En esta sección veremos cómo crear una factura de venta para un cliente.
+
+Crear la factura directamente
+"""""""""""""""""""""""""""""""
+
+#. Hacemos doble clic en la opción de menú *Area de Facturación -> Facturación -> Facturas*.
+#. Pulsamos en el botón *Insertar registro (A)*.
+    .. figure:: images/btn_insertar_registro.png
+#. Para seleccionar un cliente, pulsamos el botón con el icono de la lupa que hay a la derecha de *Cliente". Aparecerá la lista de clientes. Pulsamos de nuevo *Insertar registro (A)*. Aparecerá una ficha de cliente vacía.
+#. Rellenamos al menos los campos obligatorios (marcados con asterisco).
+#. Para rellenar la dirección de facturación, pulsamos el botón *Insertar*, rellenamos los campos y pulsamos el botón *Aceptar los cambios y cerrar formulario (F10)*.
+    .. figure:: images/editar_direcciones_clientes.png
 
 
-Circuito de compras
----------------------
+
+Cómo introducir una factura de compra
+------------------------------------------
 
 
 
