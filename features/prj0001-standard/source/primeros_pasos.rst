@@ -94,24 +94,31 @@ En la vista *Módulos* podemos encontrar todas las opciones. La vista *Recientes
 Cómo crear una factura de venta
 ------------------------------------
 
-En esta sección veremos cómo crear una factura de venta para un cliente.
+En esta sección veremos cómo crear una factura de venta para un cliente en unos pocos y sencillos pasos.
 
-Crear la factura directamente
-"""""""""""""""""""""""""""""""
-
-#. Hacemos doble clic en la opción de menú *Area de Facturación -> Facturación -> Facturas*.
+#. Hacemos doble clic en la opción de menú *Area de Facturación -> Facturación -> Facturas* (el icono verde).
 #. Pulsamos en el botón *Insertar registro (A)*.
     .. figure:: images/btn_insertar_registro.png
 #. Para seleccionar un cliente, pulsamos el botón con el icono de la lupa que hay a la derecha de *Cliente*. Aparecerá la lista de clientes. Pulsamos de nuevo *Insertar registro (A)*. Aparecerá una ficha de cliente vacía.
 #. Rellenamos al menos los campos obligatorios (marcados con asterisco).
 #. Para rellenar la dirección de facturación, pulsamos el botón *Insertar*, rellenamos los campos y pulsamos el botón *Aceptar los cambios y cerrar formulario (F10)* (el que está en la parte inferior derecha de la pantalla con un icono de un aspa verde).
     .. figure:: images/editar_direcciones_clientes.png
+#. Imprimimos la factura pulsando el botón *Imprimir tabla (I)*.
+    .. figure:: images/impresion_factura_cliente.png
 
 
 
 Cómo introducir una factura de compra
 ------------------------------------------
 
+Veremos cómo introducir una factura de compra.
+
+#. Hacemos doble clic en la opción de menú *Area de Facturación -> Facturación -> Facturas* (el icono rosa, el que está más abajo de los dos).
+#. Pulsamos en el botón *Insertar registro (A)*.
+    .. figure:: images/btn_insertar_registro.png
+#. Para seleccionar un proveedor, pulsamos el botón con el icono de la lupa que hay a la derecha de *Cliente*. Aparecerá la lista de clientes. Pulsamos de nuevo *Insertar registro (A)*. Aparecerá una ficha de proveedor vacía.
+#. Rellenamos al menos los campos obligatorios (marcados con asterisco).
+#. Para rellenar la dirección de facturación, pulsamos el botón *Insertar*, rellenamos los campos y pulsamos el botón *Aceptar los cambios y cerrar formulario (F10)* (el que está en la parte inferior derecha de la pantalla con un icono de un aspa verde).
 
 
 .. _`Versiones Estables`: http://www.eneboo.org/site/stable
