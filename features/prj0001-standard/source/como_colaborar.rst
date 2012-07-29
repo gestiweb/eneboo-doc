@@ -74,9 +74,9 @@ A continuación se detalla el subconjunto de marcas de reStructuredText_ que se 
     """"""""""""""""""""""""""
  
 
-**Los elementos propios de la aplicación**, como nombres de campos o botones, deberán ir *en cursiva* para distinguirlos mejor. Para hacer esto, se pondrán entre dobles asteriscos, como se puede ver a continuación::
+**Los elementos propios de la aplicación**, como nombres de campos o botones, deberán ir *en cursiva* para distinguirlos mejor. Para hacer esto, se pondrán entre asteriscos, como se puede ver a continuación::
     
-    Para crear una nueva factura pulse el botón \*Insertar registro*.
+    Para crear una nueva factura pulse el botón *Insertar registro*.
         
 
 **Enlaces dentro del manual**
