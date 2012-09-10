@@ -103,6 +103,13 @@ En esta sección veremos cómo crear una factura de venta para un cliente en uno
 #. Rellenamos al menos los campos obligatorios (marcados con asterisco).
 #. Para rellenar la dirección de facturación, pulsamos el botón *Insertar*, rellenamos los campos y pulsamos el botón *Aceptar los cambios y cerrar formulario (F10)* (el que está en la parte inferior derecha de la pantalla con un icono de un aspa verde).
     .. figure:: images/editar_direcciones_clientes.png
+#. Para meter cada línea de factura pulsamos el botón *Insertar registro (A)* que parece bajo la etiqueta *Líneas*. Podemos insertar nuevas líneas seleccionando un artículo previamente creado o sin seleccionar artículo. En este apartado usaremos la segunda forma por ser más inmediata.
+#. Rellenamos el campo *Descripción* con una línea o más líneas de texto.
+#. Seleccionamos el tipo de *I.V.A.* pulsando el botón de la lupa que hay junto a esa etiqueta.
+#. Rellenamos *Cantidad* y *Precio unidad*. El campo *Importe* será calculado de forma automática.
+    .. figure:: images/editar_lineas_facturas_clientes.png
+#. Pulsamos el botón *Aceptar los cambios y cerrar formulario (F10)*.
+#. Repetimos los pasos anteriores para insertar nuevas líneas tantas veces como deseemos.
 #. Imprimimos la factura pulsando el botón *Imprimir tabla (I)*.
     .. figure:: images/impresion_factura_cliente.png
 
